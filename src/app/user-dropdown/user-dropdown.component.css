@@ -1,34 +1,32 @@
-
 nav {
-    margin: 0;
+    margin-top: 68px;
+    background-color:#F012BE;
+    padding: 20px;
     position: sticky;
     top: 68px;
+    left: 0;
+    right: 0;
+    width: 100%;
 }
 
 nav ul {
     margin: 0 auto;
-    max-width: 100%;
-    padding: 20px;
+    padding: 0;
+    white-space: nowrap;
+    max-width: 1200px;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(255, 185, 35);
+    margin: 0;
+    padding: 0;
+    width: 25%;
     display: inline-block;
-    background-color: dimgray;
-    text-align: center;
-    width: 100%;
-
+    font-size: 24px;
 }
 
-ul a {
-    color: gold;   
-    padding: 25px;
-    text-align: center;
-    width: 100%;
-}
-
-.UserOptions {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-}
-
-ul a:hover {
+nav a:hover {
     color:yellow;
-    font-size: 1.2em;
+    font-size: 2em;
 }

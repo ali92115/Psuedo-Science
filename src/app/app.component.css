@@ -1,14 +1,8 @@
-body, ul, li, h1, h2 {
-    margin: 0;
-    padding: 0;
-}
-
-
 .TitleScreen {
+    position: fixed;
     text-align: center;
     padding: 10px;
     background: violet;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
@@ -19,7 +13,6 @@ body, ul, li, h1, h2 {
     background-color: teal;
     padding: 10px;
     z-index: 1;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 button:hover {
@@ -27,7 +20,6 @@ button:hover {
 }
 
 h1 {
-    position: fixed;
     width: 100%;
     border: 5px solid rgb(207, 131, 207);
     left: 0;

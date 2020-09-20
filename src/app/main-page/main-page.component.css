@@ -1,0 +1,15 @@
+h1 {
+    color: dimgray;
+    text-decoration: underline;
+    margin-left: 40px;
+}
+
+p  {
+    margin-left: 60px;
+}
+
+span {
+    color: goldenrod;
+    font-size: 1.2em;
+    font-weight: bold;
+}
