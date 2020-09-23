@@ -2,7 +2,7 @@
     position: fixed;
     text-align: center;
     padding: 10px;
-    background: violet;
+    background: #2C3531;
 }
 
 
@@ -21,10 +21,11 @@ button:hover {
 
 h1 {
     width: 100%;
-    border: 5px solid rgb(207, 131, 207);
+    border: 5px solid #212925;
     left: 0;
     top: 0;
     padding: 10px;
     z-index: -1;
     margin: 0;
+    color: #D1E8E2
 }
